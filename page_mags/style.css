@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  height: auto;
+  background: url("../img/mags.png") no-repeat;
+  background-size: 100%;
+  margin-bottom: 140px;
+}
+
+.mg56 {
+  margin-bottom: 56px;
+}
+
+.photo5 {
+  width: 661px;
+  height: 857px;
+  margin-bottom: 56px;
+}
+
+.photo6 {
+  margin-bottom: 56px;
+}
+/*# sourceMappingURL=style.css.map */

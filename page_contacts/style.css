@@ -1,0 +1,54 @@
+.cont_bl {
+  color: black;
+}
+
+.interv {
+  margin-bottom: 170px;
+  height: 716px;
+}
+
+.interv .social {
+  background: url(../img/Frame334.svg) no-repeat;
+}
+
+.interv .name {
+  margin-bottom: 39px;
+}
+
+.interv .txt a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 19px;
+}
+
+.geolocation-maps {
+  -webkit-box-shadow: 8px -10px 23px #F1F1F1, -8px 10px 23px #F1F1F1;
+          box-shadow: 8px -10px 23px #F1F1F1, -8px 10px 23px #F1F1F1;
+  border-radius: 35px;
+}
+
+.geolocation-maps iframe {
+  border-radius: 35px;
+  width: 750px;
+  height: 400px;
+  margin: 24px;
+}
+
+.geolocation-address {
+  height: 448px;
+  margin-right: 100px;
+}
+
+.geolocation-address h2 {
+  margin-top: 60px;
+}
+
+.geolocation ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+/*# sourceMappingURL=style.css.map */

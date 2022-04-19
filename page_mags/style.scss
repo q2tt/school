@@ -1,0 +1,25 @@
+@mixin box ($w, $h){
+    width: $w;
+    height: $h;
+}
+@mixin text($fs, $fw,$lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+.header{
+    @include box (100%, auto);
+    background: url('../img/mags.png') no-repeat ;
+    background-size: 100%;
+    margin-bottom: 140px;
+}
+.mg56{
+    margin-bottom: 56px
+}
+.photo5{
+   @include  box (661px, 857px);
+    margin-bottom: 56px;
+}
+.photo6{
+     margin-bottom: 56px;
+ }

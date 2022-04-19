@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: auto;
+  background: url("../img/online.png") no-repeat;
+  background-size: 100%;
+  margin-bottom: 140px;
+}
+
+.kcamp1 {
+  margin-bottom: 41px;
+}
+
+.ph1 {
+  margin-top: 61px;
+  margin-bottom: 48px;
+}
+
+.ph2 {
+  margin-bottom: 48px;
+}
+
+.ph4 {
+  margin-top: 91px;
+  margin-bottom: 48px;
+}
+/*# sourceMappingURL=style.css.map */

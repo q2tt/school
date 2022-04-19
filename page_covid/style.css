@@ -1,0 +1,81 @@
+.cont_bl {
+  color: black;
+}
+
+.color-wrap {
+  background-color: #883CDA;
+  height: 488px;
+}
+
+.color-wrap .nav {
+  margin-bottom: 100px;
+  padding-top: 89px;
+}
+
+.color-wrap .nav-left {
+  border-right: 1px solid #FFFFFF;
+}
+
+.color-wrap .nav-left a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.color-wrap .nav-rt {
+  color: #FFFFFF;
+}
+
+.color-wrap h2 {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.color-wrap p {
+  width: 420px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.bord {
+  border-bottom: 2px solid #A5A5A9;
+}
+
+.covid {
+  padding: 56px 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.covid-rt {
+  max-width: 670px;
+}
+
+.covid-lft {
+  max-width: 670px;
+}
+
+.covid-lft li {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.covid p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.covid h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+/*# sourceMappingURL=style.css.map */

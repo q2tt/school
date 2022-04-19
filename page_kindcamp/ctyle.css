@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  height: auto;
+  background: url("../img/G5.png") no-repeat;
+  background-size: 100%;
+  margin-bottom: 140px;
+  margin-top: 0px;
+}
+
+.head-nav {
+  margin-bottom: 48px;
+}
+
+.head-nav .nav-left {
+  border-right: 2px solid white;
+}
+
+.head-nav .nav-left a {
+  color: white;
+}
+
+.head-nav .nav-rt {
+  color: white;
+}
+
+.kcamp1 {
+  margin-bottom: 41px;
+}
+
+.kcamp-box {
+  width: 670px;
+}
+
+.kcamp-box h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-bottom: 32px;
+  margin-top: 15px;
+}
+
+.kcamp-box p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.5px;
+  margin-bottom: 18px;
+}
+
+.kcamp-box ul {
+  margin-bottom: 24px;
+}
+
+.kcamp-box ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
+.kcamp-box .bolt {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 18px;
+  margin-top: 25px;
+}
+
+.kcamp-box img {
+  display: block;
+}
+
+.kcamp-box .photo1 {
+  width: 661px;
+  height: 731px;
+  margin-bottom: 56px;
+}
+
+.kcamp-box .photo2 {
+  width: 661px;
+  height: 398px;
+}
+
+.kcamp-box .photo3 {
+  width: 661px;
+  height: 731px;
+  margin-top: 149px;
+}
+
+.marg {
+  margin-right: 384px;
+}
+/*# sourceMappingURL=ctyle.css.map */

@@ -1,0 +1,78 @@
+@mixin box ($w, $h){
+    width: $w;
+    height: $h;
+}
+@mixin text($fs, $fw,$lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+$wcolor: #FFFFFF;
+$maincolor: #883CDA;
+$font-f-2: 'Fruktur', cursive;
+// @include text($fs, $fw,$lh);
+.prise{
+    margin-bottom: 140px;
+    h2{
+        font-family: $font-f-2;
+        @include text(48px, 900, 58px);
+        margin-bottom: 24px;
+        margin-bottom: 108px;
+    }
+    // &-wrap{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-around;
+    // }
+    &-block{
+        @include box (338px, 413px);
+        // box-shadow: 8px -10px 23px #F1F1F1, -8px 10px 23px #F1F1F1;
+        // border-radius: 35px;
+        // text-align: center;
+        // box-sizing: border-box;
+        // padding: 0 39px 30px 39px;
+        // &-img{
+        //     @include box (166px, 166px);
+        //     border-radius: 50%;
+        //     background-color: #ffb2b6;
+        //     margin: 0 auto;
+        //     margin-top: -44px;
+        //     box-sizing: border-box;
+        //     padding-top: 56px;
+        //     margin-bottom: 22px;
+        //     img{
+        //         display: block;
+        //         width: 54px;
+        //         height: 54px;
+        //         margin: auto;
+        //     }
+        // }
+        h4{
+            font-family: $font-f-2;
+            @include text(34px, 900, 41px);
+            margin-bottom: 18px;
+        }
+        .prise{
+            @include text(18px, 700, 21px);
+            margin-bottom: 6px;
+        }
+        .txt{
+            @include text(18px, 400, 26px);
+            margin-bottom: 16px;
+        }
+        .food{
+        
+            @include text(18px, 700, 21px);
+            margin-bottom: 6px;
+        }
+    }
+    .bg-pink{
+        background-color: #ffb2b6;
+    }
+    .bg-blue{
+        background-color: #9dd8f9;  
+    }
+    .bg-filet{
+        background-color: $maincolor;
+    }
+}

@@ -1,0 +1,76 @@
+@mixin box ($w, $h){
+    width: $w;
+    height: $h;
+}
+@mixin text($fs, $fw,$lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+.header{
+    @include box (100%, auto);
+    background: url('../img/G5.png') no-repeat ;
+    background-size: 100%;
+    margin-bottom: 140px;
+    margin-top: 0px;
+}
+.head-nav{
+     margin-bottom: 48px;
+    .nav-left{
+        border-right: 2px solid white;
+        a{
+            color: white;
+        }
+    }
+    .nav-rt{
+        color: white;
+    }
+    
+}
+
+.kcamp1 {
+    margin-bottom: 41px;
+}
+.kcamp-box{
+    width: 670px;
+    h3{
+        @include text(32px, 500, 37px);
+        margin-bottom: 32px;
+        margin-top: 15px
+    }
+    p{
+        @include text(18px, 400, 26.5px);
+        margin-bottom: 18px;
+    }
+    ul{
+        li{
+            list-style-type: disc;
+            list-style-position: inside;
+            @include text(18px, 400, 26px);
+            margin-bottom: 18px;
+        }
+        margin-bottom: 24px
+    }
+    .bolt{
+        @include text(18px, 500, 26px);
+        margin-bottom: 18px;
+        margin-top: 25px;
+    }
+    img{
+        display: block;  
+    }
+    .photo1{
+        @include box (661px, 731px);
+        margin-bottom: 56px;
+    }
+    .photo2{
+        @include box (661px, 398px);
+    }
+    .photo3{
+        @include box (661px, 731px);
+        margin-top: 149px;
+    }
+}
+.marg{
+    margin-right: 384px;
+}

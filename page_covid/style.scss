@@ -1,0 +1,67 @@
+$maincolor: #883CDA;
+$wcolor: #FFFFFF;
+@mixin text($fs, $fw,$lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+.cont_bl{
+    color: black;
+}
+
+.color-wrap{
+    background-color: $maincolor;
+    height: 488px;
+    .nav{  
+     &-left{
+         border-right: 1px solid $wcolor;
+         a{
+            color: $wcolor; 
+            text-decoration: none;
+         }
+     }
+     &-rt{
+        color: $wcolor;
+    }
+    margin-bottom: 100px;
+    padding-top: 89px;
+    }
+    h2{
+        font-size: 48px;
+        color: $wcolor;
+    }
+    p{
+        width: 420px;
+        @include text(16px, 400, 21px);
+        color: $wcolor;
+    }
+}
+.bord{
+    border-bottom: 2px solid #A5A5A9;
+}
+.covid{
+   padding: 56px 0;
+    width: 100%;
+    margin-bottom: 0;
+
+    &-rt{
+        max-width: 670px;
+    }
+    &-lft{
+        max-width: 670px;
+        li{
+            list-style-type: disc;
+            margin-left: 20px;
+            @include text(18px, 400, 26px);
+            margin-bottom: 16px;
+        }
+    }
+    p{
+        @include text(18px, 400, 26px);
+        margin-bottom: 16px;
+    }
+    h3{
+        @include text(36px, 500, 42px);
+        margin-bottom: 32px;
+    }
+}

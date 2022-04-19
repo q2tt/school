@@ -1,0 +1,59 @@
+.prise {
+  margin-bottom: 140px;
+}
+
+.prise h2 {
+  font-family: "Fruktur", cursive;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  margin-bottom: 24px;
+  margin-bottom: 108px;
+}
+
+.prise-block {
+  width: 338px;
+  height: 413px;
+}
+
+.prise-block h4 {
+  font-family: "Fruktur", cursive;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 41px;
+  margin-bottom: 18px;
+}
+
+.prise-block .prise {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 6px;
+}
+
+.prise-block .txt {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.prise-block .food {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 6px;
+}
+
+.prise .bg-pink {
+  background-color: #ffb2b6;
+}
+
+.prise .bg-blue {
+  background-color: #9dd8f9;
+}
+
+.prise .bg-filet {
+  background-color: #883CDA;
+}
+/*# sourceMappingURL=style-index.css.map */
